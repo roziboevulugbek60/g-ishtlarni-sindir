@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080b18">
+    <meta name="description" content="Neon Breaker - Modern Brick Breaking Game">
+
+    <title>NEON BREAKER | Ulug'bek.R</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <!-- HEADER -->
+        <header class="game-header">
+            <h1>NEON <span>BREAKER</span></h1>
+            <p>BREAK THE BRICKS • BE THE CHAMPION</p>
+        </header>
+
+        <!-- GAME INFORMATION -->
+        <div class="game-info">
+
+            <div class="info-box">
+                <span>SCORE</span>
+                <strong id="score">0</strong>
+            </div>
+
+            <div class="info-box">
+                <span>LIVES</span>
+                <strong id="lives">3</strong>
+            </div>
+
+            <div class="info-box">
+                <span>LEVEL</span>
+                <strong id="level">1</strong>
+            </div>
+
+        </div>
+
+        <!-- GAME CANVAS -->
+        <div class="canvas-wrapper">
+
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+            <!-- GAME START / PAUSE / END SCREEN -->
+            <div id="overlay" class="overlay">
+
+                <h2 id="overlayTitle">READY?</h2>
+
+                <p id="overlayText">
+                    Are you ready to break some bricks?
+                </p>
+
+                <button id="startBtn">
+                    START GAME
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+
+            <p>← → or A / D : MOVE</p>
+
+            <p>MOUSE : MOVE PADDLE</p>
+
+            <p>SPACE : START / PAUSE</p>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>NEON BREAKER © 2026</p>
+
+            <p class="developer">
+                Developed by <span>Ulug'bek.R</span>
+            </p>
+
+        </footer>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
