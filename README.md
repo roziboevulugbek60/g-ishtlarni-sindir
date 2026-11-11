@@ -1,0 +1,1 @@
+# g-ishtlarni-sindir
